@@ -1,0 +1,13 @@
+HOW  TO PROPERLY AUTOMOUNT A DRIVE IN UBUNTU
+sudo blkid
+/dev/n0n1p7: LABEL="Comun" UUID="09F047" TYPE="ntfs" PARTLABEL="Basic data partition" PARTUUID="9511f-8078-835c635fcebe"
+
+
+sudo mkdir /datashared
+
+ sudo groupadd datashared
+
+sudo usermod -aG datashared mario
+sudo chown -R :datashared /datashared
+sudo nano /etc/fstab
+UUID=09F047 /datashared auto nosuid,nodev,nofail,x-gvfs-show 0 0 
