@@ -1,0 +1,30 @@
+CÓMO USAR Git y GitHub FÁCILMENTE [ TUTORIAL 2020 ] Piensa 3d
+https://www.youtube.com/watch?v=3XlZWpLwvvo
+
+Working dir:
+DirASubir: Carpeta donde colocamos los ficheros a subir al repositorio
+LocalRepo: Repositorio donde esta todo encapsulado, listo para subirlo a la nube
+RemoteRepo:
+
+                         LOCAL            ||  REMOTE
+                                          ||
+            WorkingDir|DirASubir|LocalRepo||RemoteRepo
+git                   |         |         ||
+  add           ------|---->    |         ||
+  commit              |    -----|---->    ||
+  push                |         |      ---||---->
+                      |         |         ||
+  fetch               |         |      <--||-----        
+  checkout      <-----|---------|-----    ||
+  merge         <-----|---------|-----    ||
+  
+  
+  
+  
+  
+  add:
+  commit: Encapsular todo en un mismo paquete y enviarlo al repositorio local
+  push: empujar encapsulado a la nube
+  fetch: 
+  checkout: ver la version
+  merge: Unir lo que tenemos en el localRepo con lo que tenemos en el WorkingDir
