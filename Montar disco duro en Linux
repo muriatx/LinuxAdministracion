@@ -1,0 +1,5 @@
+How to  using bind to remount part fof  a partition
+
+sudo mount --bind /datashared/SharedData/L_Escritorio /home/mario/Escritorio
+sudo umount /home/mario/Escritorio
+sudo systemctl restart display-manager
