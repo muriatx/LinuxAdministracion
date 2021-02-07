@@ -18,6 +18,8 @@ git                   |         |         ||
   checkout      <-----|---------|-----    ||
   merge         <-----|---------|-----    ||
   
+  clone: Solo para la primera vez que lo baja,os y lo hacemos local
+  
   
   
   
