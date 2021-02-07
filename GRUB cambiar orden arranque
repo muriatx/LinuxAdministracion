@@ -1,0 +1,4 @@
+sudo gedit /etc/default/grub
+sudo cat /etc/default/grub
+sudo update-grub
+
