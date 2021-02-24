@@ -11,3 +11,4 @@ sudo usermod -aG datashared mario
 sudo chown -R :datashared /datashared
 sudo nano /etc/fstab
 UUID=09F047 /datashared auto nosuid,nodev,nofail,x-gvfs-show 0 0 
+UUID=09F047 /datashared auto uid=1000,nodev,nofail,x-gvfs-show 0 0 
