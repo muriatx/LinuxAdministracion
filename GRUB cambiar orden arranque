@@ -2,3 +2,14 @@ sudo gedit /etc/default/grub
 sudo cat /etc/default/grub
 sudo update-grub
 
+Para modificar problema vscode
+sudo gedit /usr/share/applications/mimeinfo.cache
+
+PAra incorporar comandos customs:
+sudo gedit ~/.bashrc
+
+
+alias rl="sudo sed -i 's/GRUB_DEFAULT=2/GRUB_DEFAULT=0/' /etc/default/grub && sudo update-grub && echo -e '\n\n\nGRUB:    *Linux\n          Windows\n'"
+alias rw="sudo sed -i 's/GRUB_DEFAULT=2/GRUB_DEFAULT=2/' /etc/default/grub && sudo update-grub && echo -e '\n\n\nGRUB:     Linux\n         *Windows\n'"
+alias r?="sudo cat /etc/default/grub"
+
