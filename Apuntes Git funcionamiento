@@ -1,3 +1,10 @@
+
+
+
+git config --global credential.helper store
+
+https://github.com/settings/tokens
+
 CÓMO USAR Git y GitHub FÁCILMENTE [ TUTORIAL 2020 ] Piensa 3d
 https://www.youtube.com/watch?v=3XlZWpLwvvo
 
