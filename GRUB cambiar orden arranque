@@ -21,3 +21,5 @@ https://learnubuntumate.weebly.com/reduce-shutdown-time.html
 sudo gedit /etc/systemd/system.conf
 gsettings set org.gnome.SessionManager logout-prompt false
 
+
+https://blog.programster.org/create-nemo-action-open-in-terminator
