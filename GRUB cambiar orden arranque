@@ -17,5 +17,5 @@ alias r?="sudo cat /etc/default/grub"
 
 gsettings set org.gnome.shell.extensions.end-session-timer time-out 14
 
-
+https://learnubuntumate.weebly.com/reduce-shutdown-time.html
 sudo gedit /etc/systemd/system.conf
