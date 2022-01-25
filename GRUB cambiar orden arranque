@@ -13,3 +13,9 @@ alias rl="sudo sed -i 's/GRUB_DEFAULT=2/GRUB_DEFAULT=0/' /etc/default/grub && su
 alias rw="sudo sed -i 's/GRUB_DEFAULT=2/GRUB_DEFAULT=2/' /etc/default/grub && sudo update-grub && echo -e '\n\n\nGRUB:     Linux\n         *Windows\n'"
 alias r?="sudo cat /etc/default/grub"
 
+
+
+gsettings set org.gnome.shell.extensions.end-session-timer time-out 14
+
+
+sudo gedit /etc/systemd/system.conf
