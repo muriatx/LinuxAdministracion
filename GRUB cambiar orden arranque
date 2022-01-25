@@ -19,3 +19,5 @@ gsettings set org.gnome.shell.extensions.end-session-timer time-out 14
 
 https://learnubuntumate.weebly.com/reduce-shutdown-time.html
 sudo gedit /etc/systemd/system.conf
+gsettings set org.gnome.SessionManager logout-prompt false
+
