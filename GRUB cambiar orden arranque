@@ -26,5 +26,7 @@ https://blog.programster.org/create-nemo-action-open-in-terminator
 
 Para modificar problema vscode
 cd /usr/share/applications
+sudo gedit code.desktop 
+
 
 sudo gedit /usr/share/applications/mimeinfo.cache
