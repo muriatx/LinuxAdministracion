@@ -24,9 +24,15 @@ https://blog.programster.org/create-nemo-action-open-in-terminator
 
 
 
-Para modificar problema vscode
+**Para modificar problema vscode**
 cd /usr/share/applications
 sudo gedit code.desktop 
 
-
 sudo gedit /usr/share/applications/mimeinfo.cache
+
+    BUENO
+ https://askubuntu.com/questions/1256037/double-click-on-folders-opens-vscode
+  sudo gedit /usr/share/applications/code.desktop
+  Then comment out the following line by placing a hash in front
+    # MimeType=text/plain;inode/directory;
+  sudo update-desktop-database
