@@ -3,26 +3,31 @@ sudo cat /etc/default/grub
 sudo update-grub
 
 
-PAra incorporar comandos customs:
+**Para incorporar comandos customs:**
 sudo gedit ~/.bashrc
-
 
 alias rl="sudo sed -i 's/GRUB_DEFAULT=2/GRUB_DEFAULT=0/' /etc/default/grub && sudo update-grub && echo -e '\n\n\nGRUB:    *Linux\n          Windows\n'"
 alias rw="sudo sed -i 's/GRUB_DEFAULT=2/GRUB_DEFAULT=2/' /etc/default/grub && sudo update-grub && echo -e '\n\n\nGRUB:     Linux\n         *Windows\n'"
 alias r?="sudo cat /etc/default/grub"
 
+----------------------------
 
+**Quitar temporizador recursivo ubuntu**
 
 gsettings set org.gnome.shell.extensions.end-session-timer time-out 14
 
 https://learnubuntumate.weebly.com/reduce-shutdown-time.html
 sudo gedit /etc/systemd/system.conf
+
+   FINAL/BUENO
 gsettings set org.gnome.SessionManager logout-prompt false
 
+----------------------------
 
+**Click derecho menu ADD**
 https://blog.programster.org/create-nemo-action-open-in-terminator
 
-
+----------------------------
 
 **Para modificar problema vscode**
 cd /usr/share/applications
@@ -30,9 +35,11 @@ sudo gedit code.desktop
 
 sudo gedit /usr/share/applications/mimeinfo.cache
 
-    BUENO
+    FINAL/BUENO
  https://askubuntu.com/questions/1256037/double-click-on-folders-opens-vscode
   sudo gedit /usr/share/applications/code.desktop
   Then comment out the following line by placing a hash in front
     # MimeType=text/plain;inode/directory;
   sudo update-desktop-database
+  
+-----------------------------
