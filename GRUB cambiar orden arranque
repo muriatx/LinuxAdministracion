@@ -2,8 +2,6 @@ sudo gedit /etc/default/grub
 sudo cat /etc/default/grub
 sudo update-grub
 
-Para modificar problema vscode
-sudo gedit /usr/share/applications/mimeinfo.cache
 
 PAra incorporar comandos customs:
 sudo gedit ~/.bashrc
@@ -23,3 +21,10 @@ gsettings set org.gnome.SessionManager logout-prompt false
 
 
 https://blog.programster.org/create-nemo-action-open-in-terminator
+
+
+
+Para modificar problema vscode
+cd /usr/share/applications
+
+sudo gedit /usr/share/applications/mimeinfo.cache
