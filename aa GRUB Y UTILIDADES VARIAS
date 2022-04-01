@@ -43,3 +43,9 @@ sudo gedit /usr/share/applications/mimeinfo.cache
   sudo update-desktop-database
   
 -----------------------------
+
+wired connection ubuntu doesnt appear
+
+sudo touch /etc/NetworkManager/conf.d/10-globally-managed-devices.conf
+sudo systemctl restart NetworkManager
+
