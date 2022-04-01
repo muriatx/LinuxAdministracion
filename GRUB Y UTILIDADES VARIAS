@@ -3,6 +3,8 @@ sudo cat /etc/default/grub
 sudo update-grub
 
 
+----------------------------
+
 **Para incorporar comandos customs:**
 sudo gedit ~/.bashrc
 
@@ -43,9 +45,20 @@ sudo gedit /usr/share/applications/mimeinfo.cache
   sudo update-desktop-database
   
 -----------------------------
-
-wired connection ubuntu doesnt appear
+https://askubuntu.com/questions/908614/ethernet-network-not-showing-or-connecting-in-ubuntu-17-04
+wired connection ubuntu 20 04 doesnt appear
 
 sudo touch /etc/NetworkManager/conf.d/10-globally-managed-devices.conf
 sudo systemctl restart NetworkManager
+
+-----------------------------
+xilinx ise 14.7 linux ubuntu launcher
+
+I created this batch command, it works as good as on windows, the youtube video tutorial of installation
+makes that on terminal it appears "source" list and also 3 lines each time you enter a command
+so I didnt like it, this is my fix:
+
+alias ise='rm nohup.out && source /opt/Xilinx/14.7/ISE_DS/settings64.sh && nohup ise & exit'
+
+
 
