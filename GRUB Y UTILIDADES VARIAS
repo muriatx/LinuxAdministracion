@@ -29,6 +29,18 @@ gsettings set org.gnome.SessionManager logout-prompt false
 **Click derecho menu ADD**
 https://blog.programster.org/create-nemo-action-open-in-terminator
 
+sudo apt-get install nautilus-actions
+Los dos primeros ticks puestos, tercero quitado, cuarto puesto
+Etiqueta de contexto: CONSOLA Terminator
+poner icono
+
+Pestaña comando:
+ruta: terminator
+Parametros:--working-directory="$PWD"
+Carpeta de trabajo: %d
+
+Pestaña ejecucion:
+Exexution mode: normal
 ----------------------------
 
 **Para modificar problema vscode**
