@@ -38,7 +38,7 @@ poner icono
 
 Pestaña comando:
 ruta: terminator
-Parametros:--working-directory="$PWD"
+Parametros:--working-directory=%d/%b
 Carpeta de trabajo: %d
 
 Pestaña ejecucion:
