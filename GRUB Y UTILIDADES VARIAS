@@ -41,6 +41,11 @@ Carpeta de trabajo: %d
 
 Pestaña ejecucion:
 Exexution mode: normal
+
+
+resetear Nautilus:
+nautilus -q
+
 ----------------------------
 
 **Para modificar problema vscode**
