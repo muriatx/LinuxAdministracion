@@ -34,4 +34,14 @@ CAMBIAR CARPETAS POR DEFAULT
 cat $HOME/.config/user-dirs.dirs
 sudo gedit $HOME/.config/user-dirs.dirs
 
+cat /etc/xdg/user-dirs.defaults
+sudo gedit /etc/xdg/user-dirs.defaults
+sudo xdg-user-dirs-update
+
+
+nautilus -q
+
+
+
+
 
