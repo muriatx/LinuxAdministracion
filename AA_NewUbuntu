@@ -1,4 +1,7 @@
 
+-----------------------------------------------------------------------------
+INSTALAR VSCODE
+-----------------------------------------------------------------------------
 sudo apt install curl
 
 curl -L "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" -o installcode.deb
@@ -7,6 +10,8 @@ sudo apt install ./installcode.deb
 
 sudo apt install git-all
 
+-----------------------------------------------------------------------------
+EXTENSIONES GNOME
 -----------------------------------------------------------------------------
 Extensiones gnome:
   https://linuxhint.com/installing_gnome_extensions_ubuntu/
@@ -23,5 +28,10 @@ Extensiones gnome:
   optativas
     https://extensions.gnome.org/extension/2917/bring-out-submenu-of-power-offlogout-button/
     
-  ----------------------------------------------------------------------------  
-  
+----------------------------------------------------------------------------
+CAMBIAR CARPETAS POR DEFAULT
+----------------------------------------------------------------------------
+cat $HOME/.config/user-dirs.dirs
+sudo gedit $HOME/.config/user-dirs.dirs
+
+
