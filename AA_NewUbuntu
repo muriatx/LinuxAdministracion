@@ -39,6 +39,9 @@ sudo gedit /etc/xdg/user-dirs.defaults
 sudo xdg-user-dirs-update --force
 
 
+https://wiki.archlinux.org/title/XDG_user_directories
+https://askubuntu.com/questions/762591/how-to-remove-unwanted-default-bookmarks-in-nautilus
+
 nautilus -q
 
 
