@@ -1,2 +1,24 @@
 sudo apt install curl
+
+
+
 wget "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
+
+-----------------------------------------------------------------------------
+Extensiones gnome:
+  https://linuxhint.com/installing_gnome_extensions_ubuntu/
+sudo apt install gnome-shell-extensions
+sudo apt install chrome-gnome-shell
+
+  https://extensions.gnome.org/extension/3628/arcmenu/
+  https://extensions.gnome.org/extension/1160/dash-to-panel/
+  https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/
+  https://extensions.gnome.org/extension/7/removable-drive-menu/
+  https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/
+  https://extensions.gnome.org/extension/1301/ubuntu-appindicators/
+
+  optativas
+    https://extensions.gnome.org/extension/2917/bring-out-submenu-of-power-offlogout-button/
+    
+  ----------------------------------------------------------------------------  
+  
