@@ -2,7 +2,10 @@
 sudo apt install curl
 
 curl -L "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" -o installcode.deb
+sudo apt install ./installcode.deb 
 
+
+sudo apt install git-all
 
 -----------------------------------------------------------------------------
 Extensiones gnome:
