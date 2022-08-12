@@ -1,14 +1,13 @@
 sudo apt install curl
 
+curl -L "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" -o installcode.deb
 
-
-wget "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
 
 -----------------------------------------------------------------------------
 Extensiones gnome:
   https://linuxhint.com/installing_gnome_extensions_ubuntu/
-sudo apt install gnome-shell-extensions
-sudo apt install chrome-gnome-shell
+    sudo apt install gnome-shell-extensions
+    sudo apt install chrome-gnome-shell
 
   https://extensions.gnome.org/extension/3628/arcmenu/
   https://extensions.gnome.org/extension/1160/dash-to-panel/
