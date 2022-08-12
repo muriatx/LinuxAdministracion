@@ -36,7 +36,7 @@ sudo gedit $HOME/.config/user-dirs.dirs
 
 cat /etc/xdg/user-dirs.defaults
 sudo gedit /etc/xdg/user-dirs.defaults
-sudo xdg-user-dirs-update
+sudo xdg-user-dirs-update --force
 
 
 nautilus -q
