@@ -36,7 +36,8 @@ sudo gedit $HOME/.config/user-dirs.dirs
 
 cat /etc/xdg/user-dirs.defaults
 sudo gedit /etc/xdg/user-dirs.defaults
-sudo xdg-user-dirs-update --force
+sudo xdg-user-dirs-update 
+
 
 
 https://wiki.archlinux.org/title/XDG_user_directories
@@ -44,7 +45,22 @@ https://askubuntu.com/questions/762591/how-to-remove-unwanted-default-bookmarks-
 
 nautilus -q
 
+----------------------------------------------------------------------------
+VScode ----   C language
+----------------------------------------------------------------------------
+
+C/C++ Extension Pack  
+  la morada 
+  la gris 
+clangd
+CMake
+CMake Tools
+
+Opcional:
+C/C++ Debugging with Flags
+Doxygen Documentation Generator
 
 
+----------------------------------------------------------------------------
 
-
+----------------------------------------------------------------------------
