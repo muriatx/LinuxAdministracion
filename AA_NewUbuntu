@@ -55,6 +55,7 @@ C/C++ Extension Pack
 clangd
 CMake
 CMake Tools
+Include Autocomplete
 
 Opcional:
 C/C++ Debugging with Flags
