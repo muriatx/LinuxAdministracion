@@ -12,6 +12,8 @@ alias rl="sudo sed -i 's/GRUB_DEFAULT=2/GRUB_DEFAULT=0/' /etc/default/grub && su
 alias rw="sudo sed -i 's/GRUB_DEFAULT=0/GRUB_DEFAULT=2/' /etc/default/grub && sudo update-grub && echo -e '\n\n\nGRUB:     Linux\n         *Windows\n'"
 alias r?="sudo cat /etc/default/grub"
 
+alias reiniciarGUI="sudo systemctl restart gdm"
+
 ----------------------------
 
 **Quitar temporizador recursivo ubuntu**
